@@ -1,0 +1,26 @@
+{
+  "vendor": "echidna",
+  "name": "custom-blog-listing",
+  "version": "0.0.2",
+  "title": "Custom Blog Listing",
+  "description": "This app will render blog posts added in the themese master data into store front.",
+  "builders": {
+    "react": "3.x",
+    "messages": "1.x",
+    "docs": "0.x",
+    "styles": "2.x",
+    "store": "0.x",
+    "sitemap": "0.x",
+    "assets": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x",
+    "vtex.css-handles": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
